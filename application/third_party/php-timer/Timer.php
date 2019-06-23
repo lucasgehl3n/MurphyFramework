@@ -9,7 +9,7 @@
  */
 namespace SebastianBergmann\Timer;
 
-final class Timer
+class Timer
 {
     /**
      * @var int[]
@@ -33,6 +33,11 @@ final class Timer
      * @var float[]
      */
     private static $startTimes = [];
+
+    public function __construct()
+    {
+
+    }
 
     public static function start(): void
     {

@@ -12,7 +12,7 @@
 		public function index(){
 			$this->load->view('header');
 			$this->load->view('template');
-			$this->load->view('footer', self::$version);
+			$this->load->view('footer');
 		}
 
 	}
