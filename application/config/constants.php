@@ -87,4 +87,5 @@ defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest auto
 //-----------------------------------------------------------------------------------------------------------
 //CONSTANTES ADICIONAIS
 
-define('APPVERSION', '0.0.1');
+defined('APP_NAME')             OR define('APP_NAME', 'MurphyFramework'); //nome do sistema
+defined('APP_VERSION')          OR define('APP_VERSION', '0.0.1'); //versão do sistema

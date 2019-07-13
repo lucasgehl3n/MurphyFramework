@@ -6,7 +6,6 @@
 		public function __construct(){
 			parent::__construct();
 			$this->load->helper('url');
-			date_default_timezone_set('America/Sao_Paulo');
 	  }
 
 		public function index(){

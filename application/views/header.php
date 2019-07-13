@@ -12,7 +12,7 @@
         <meta name="description" content="Basic template for site creation">
         <meta name="author" content="Vinícius Meng and Lucas Gehlen">
         <!-- Title and icon -->
-        <title>MurphyFramework</title>
+        <title><?=APP_NAME;?></title>
         <link rel="icon" href="<?=base_url();?>assets/img/favicon.ico" type="image/gif">
         <!-- CSS -->
         <link href="<?=base_url();?>assets/css/w3.css" rel="stylesheet">
@@ -43,7 +43,7 @@
     <header class="w3-top">
       <div class="w3-bar w3-theme-l2 w3-left-align w3-large">
         <span class="w3-bar-item w3-padding-large w3-theme-l1">
-          <img class="w3-margin-right w3-image" src="<?=base_url();?>assets/img/favicon.ico" alt="MurphyLogo" width="24px"/>MurphyFramework
+          <img class="w3-margin-right w3-image" src="<?=base_url();?>assets/img/favicon.ico" alt="AppLogo" width="24px"/><?=APP_NAME;?>
         </span>
       </div>
     </header>

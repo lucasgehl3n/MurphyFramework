@@ -222,7 +222,7 @@ function w3_modal(modal_id){
 window.onclick = function(event){
   if(!(modal === undefined)){
     if(event.target == modal){
-      modal.className = x.className.replace(" w3-show", "");
+      modal.className = modal.className.replace(" w3-show", "");
     }
   }
 }
